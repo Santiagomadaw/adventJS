@@ -13,4 +13,3 @@ function findFirstRepeated(gifts) {
     return firstIndex !== gifts.length ? gifts[firstIndex] : -1;
 }
 
-

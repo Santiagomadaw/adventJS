@@ -10,4 +10,32 @@ def findFirstRepeated(gifts):
 giftIds = []
 firstRepeatedId = findFirstRepeated(giftIds)     
 print(firstRepeatedId)        
-        
+
+
+def findFirstRepeated2(gifts):
+    reviewed= []
+    
+    for gift in gifts:
+        if gift in reviewed:
+            return gift
+        else:
+            reviewed.append(gift)
+    return -1
+            
+giftIds = []
+firstRepeatedId = findFirstRepeated(giftIds)     
+print(firstRepeatedId)    
+
+def findFirstRepeated3(gifts):
+    reviewed= []
+    
+    for gift in gifts:
+        if gift in reviewed:
+            return gift
+        else:
+            reviewed.append(gift)
+    return -1
+            
+giftIds = []
+firstRepeatedId = findFirstRepeated(giftIds)     
+print(firstRepeatedId)
