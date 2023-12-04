@@ -1,6 +1,10 @@
-AdventJavaScript Logo
+# AdventJavaScript
+<img src="image.png" alt="drawing" style="width:200px;"/>
+
 Retos y regalos de
-programación navideños{/}©
+
+programación navideños
+
 ¡Cada día, un nuevo reto de programación!!
 
-<img src="image.png" alt="drawing" style="width:200px;"/>
+
