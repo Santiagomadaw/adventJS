@@ -7,9 +7,7 @@ def findFirstRepeated(gifts):
     if first_index != len(gifts): return gifts[first_index]
     else: return -1
             
-giftIds = []
-firstRepeatedId = findFirstRepeated(giftIds)     
-print(firstRepeatedId)        
+    
 
 
 def findFirstRepeated2(gifts):
@@ -23,8 +21,8 @@ def findFirstRepeated2(gifts):
     return -1
             
 giftIds = []
-firstRepeatedId = findFirstRepeated(giftIds)     
-print(firstRepeatedId)    
+
+
 
 def findFirstRepeated3(gifts):
     reviewed= []
@@ -36,6 +34,18 @@ def findFirstRepeated3(gifts):
             reviewed.append(gift)
     return -1
             
-giftIds = []
-firstRepeatedId = findFirstRepeated(giftIds)     
+  
+
+
+def findFirstRepeated4(gifts):
+  
+    
+    for index in range(1,len(gifts)):
+        print(index, gifts[index],gifts[:index])
+        if gifts[index] in gifts[:index-1]:
+            return gifts[index]
+        
+    return -1
+giftIds = [2, 2]
+firstRepeatedId = findFirstRepeated4(giftIds)     
 print(firstRepeatedId)
